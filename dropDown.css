@@ -1,0 +1,29 @@
+.dropDown{
+    width: 200px;
+    display: flex;
+    position: relative;
+    padding: 5px;
+    border: 1px solid grey;
+    border-radius: 3px;
+}
+.dropDownButton{
+    position: absolute;
+    right: 10px;
+}
+.dropDownList{
+    width: 210px;
+    position: absolute;
+    background: white;
+    border: 1px solid grey;
+    border-top:0px;
+    border-radius: 3px;
+}
+.dropDownList div{
+    padding:5px;
+}
+.dropDownList div:hover{
+    background-color: grey;
+}
+.dropDownList:hover,.dropDown:hover{
+    cursor: pointer;
+}
